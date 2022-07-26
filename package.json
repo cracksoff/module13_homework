@@ -1,0 +1,26 @@
+{
+	"name": "module13_homework",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/script.js",
+	"scripts": {
+		"start": "node --experimental-specifier-resolution=node src/index.js",
+		"dev": "npx env-cmd npm start",
+		"watch": "nodemon -L --watch src --exec npm run dev"
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"imports": {
+		"#app/*": "./src/*"
+	},
+	"devDependencies": {
+		"env-cmd": "latest",
+		"eslint": "latest",
+		"eslint-plugin-jest": "latest",
+		"nodemon": "^2.0.19"
+	},
+	"dependencies": {
+		"jquery": "^3.6.0"
+	}
+}

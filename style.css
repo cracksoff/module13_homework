@@ -1,0 +1,19 @@
+.slider {
+	position: relative;
+	width: 450px;
+	height: 400px;
+}
+.slider-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.active {
+	display: block;
+}
